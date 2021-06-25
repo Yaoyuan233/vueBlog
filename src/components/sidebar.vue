@@ -1,8 +1,8 @@
 <template>
   <div id="left_menu">
     <div class="menu_name">
-      <h1>ChaoHang'S NOTES</h1>
-      <h5>不如吃茶去</h5>
+      <h1>Yaoyuan</h1>
+      <h5>喝茶</h5>
     </div>
     <nav>
       <ul>
@@ -49,22 +49,22 @@
       <ul class="communication">
         <li class="communication_item">
           <a href="#">
-            <span>GitHub</span>
+            <span>Link1</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <span>GitHub</span>
+            <span>Link2</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <span>GitHub</span>
+            <span>Link3</span>
           </a>
         </li>
         <li class="communication_item">
           <a href="#">
-            <span>GitHub</span>
+            <span>Link4</span>
           </a>
         </li>
       </ul>
@@ -77,6 +77,7 @@
     name: 'sidebar',
     data() {
       return {
+        userName:'',
         articleNumber: ''
       }
     },
