@@ -11,9 +11,9 @@
             <span>首页</span>
           </li>
         </router-link>
-        <router-link to="/about">
+        <router-link to="/table">
           <li class="nav">
-            <span>关于</span>
+            <span>表格</span>
           </li>
         </router-link>
         <router-link to="/admin/signin">
@@ -28,47 +28,11 @@
         </router-link>
         <router-link to="/admin/articleEdit">
           <li class="nav">
-            <span>写文章</span>
+            <span>添加</span>
           </li>
         </router-link>
       </ul>
     </nav>
-    <div class="info">
-      <img src="../assets/head.jpg" alt="head">
-      <div class="info_name">CHAOHANG</div>
-      <div class="archive">
-        <ul>
-          <router-link to="/article">
-            <li>
-              <span class="archive_count">{{ articleNumber }}</span>
-              <span class="archive_name">日志</span>
-            </li>
-          </router-link>
-        </ul>
-      </div>
-      <ul class="communication">
-        <li class="communication_item">
-          <a href="#">
-            <span>Link1</span>
-          </a>
-        </li>
-        <li class="communication_item">
-          <a href="#">
-            <span>Link2</span>
-          </a>
-        </li>
-        <li class="communication_item">
-          <a href="#">
-            <span>Link3</span>
-          </a>
-        </li>
-        <li class="communication_item">
-          <a href="#">
-            <span>Link4</span>
-          </a>
-        </li>
-      </ul>
-    </div>
   </div>
 </template>
 
